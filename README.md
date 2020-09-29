@@ -1,5 +1,8 @@
 # Triplizer
 
+It is a  simple wrapper for the [AllenNLP](https://github.com/allenai/allennlp) Open Information Extrction model and the Coreference Resolution library [NeuralCoref](https://github.com/huggingface/neuralcoref). It extracts from a text a list of tripples in the form of set (Subject, Action, Object).
+
+The example of usage:
 ```python
 from corefextraction import InformationExtractor
 extractor = InformationExtractor(coreference = True)
